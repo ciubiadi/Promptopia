@@ -6,7 +6,7 @@ const Home = () => {
       <h1 className="head_text text-center">
         Discover & Share
         {/* hide it on large devices but break the content on smaller devices */}
-        <br className="max-md:hidden" />
+        <br  />        
         <span className="orange_gradient text-center">AI-Powered Prompts</span>
       </h1>
       <p className="desc text-center">
