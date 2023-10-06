@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"]
+      // changed from @/* to allow @stlyes/global.css import in layout
+      "@*": ["./*"]
     }
   }
 }

@@ -1,0 +1,6 @@
+# Prerequisites / de[emdemcoes
+- bcrpy => password hashing
+- MongoDB + Mongoose
+- Next-Auth
+- Public assets, global.css styles and tailwing.config.js were provided
+ 
