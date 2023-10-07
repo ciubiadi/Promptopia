@@ -5,6 +5,7 @@
 - Public assets, global.css styles and tailwing.config.js were provided
 - console.cloud.google.com : from here I get my google authentication
 - MongoDB Atlas : online cloud storage to create database ( https://cloud.mongodb.com/v2/60f5c60d4981123c345f231d#/clusters )
- 
+- next.config.js : provided
+
  // All the providers ( redux toolkit query, usually used files and functionalities go within
   the layout component because in this way they will be used everywhere across the app.
