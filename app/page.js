@@ -1,6 +1,6 @@
-import Feed from "@components/Feed";
+import Feed from "./components/Feed";
 
-const Home = () => {
+export default function Home() {
   return (
     <section className="w-full flex-center flex-col">
       <h1 className="head_text text-center">
@@ -18,5 +18,3 @@ const Home = () => {
     </section>
   )
 }
-
-export default Home;
