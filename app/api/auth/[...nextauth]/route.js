@@ -17,6 +17,8 @@ const authOptions = {
             const sessionUser = await User.findOne({
                 email: session.user.email
             });
+            console.log('session')
+            console.log(session)
     
             // update session, make sure that I always know which user is currently online
             session.user.id = sessionUser._id.toString();
@@ -35,7 +37,7 @@ const authOptions = {
             console.log(account)
 
             if(account.provider === 'google'){
-                const {name, email} = user;
+                // const {name, email} = user;
 
                 try{
                 /* nextjs route = serverless route => this is a Lambda function that opens up only when it gets called
@@ -43,7 +45,7 @@ const authOptions = {
                     This is great because I don't have to keep the server running constantly but I do have to make a 
                 connection to the database.
                 */ 
-                console.log('before connect to db');
+                    console.log('before connect to db');
                     await connectMongoDB();
 
                     // check if a user already exists
@@ -57,7 +59,7 @@ const authOptions = {
                         await User.create({
                             email: profile.email,
                             name: profile.name.replace(' ', '').toLowerCase(),
-                            picture: profile.picture
+                            image: profile.picture
                         })
 
                         const res = await fetch("http://localhost:3000/api/user", {
@@ -68,7 +70,7 @@ const authOptions = {
                             body: JSON.stringify({
                               name: profile.name,
                               email: profile.email,
-                              picture: profile.picture
+                              image: profile.picture
                             }),
                           });
 

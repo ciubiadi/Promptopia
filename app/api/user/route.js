@@ -2,7 +2,10 @@ import { connectMongoDB } from "@/lib/mongodb";
 import User from "@/models/user";
 import { NextResponse } from "next/server";
 
+// function to create a user
 export async function POST(request) {
+    console.log('request -user-routejs')
+    console.log(request)
     const {name, email, image} = await request.json();
     await connectMongoDB();
     await User.create({name, email, image});

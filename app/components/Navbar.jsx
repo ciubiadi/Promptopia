@@ -10,6 +10,9 @@ export default function Navbar() {
     const { data: session } = useSession(); 
     const [providers, setProviders] = useState(null);
 
+    // const { status } = useSession(); 
+    const [toggleDropdown, setToggleDropdown] = useState(false);
+
     // allow auth using google and next auth
     useEffect(() => {
         const setTheProviders = async () => {
@@ -19,8 +22,6 @@ export default function Navbar() {
         setTheProviders();
     },[]);
 
-    const { status } = useSession(); 
-    const [toggleDropdown, setToggleDropdown] = useState(false);
     return (
         <nav className='flex-between w-full mb-16 pt-3'>
             <Link href={'/'} className='flex gap-2 flex-center'>
@@ -36,7 +37,8 @@ export default function Navbar() {
 
             {/* Desktop Navigation */}
             <div className="sm:flex hidden">
-                {status === 'authenticated' ? (
+                {/* {status === 'authenticated' ? ( */}
+                {session?.user ? (
                     <div className='flex gap-3 md:gap-5'>
                         <Link href="/create-prompt" className='black_btn'>
                             Create Post
@@ -81,7 +83,8 @@ export default function Navbar() {
 
             {/* Mobile Navigation */}
             <div className="sm:hidden flex relative">
-                {status === 'authenticated' ? (
+                {/* {status === 'authenticated' ? ( */}
+                {session?.user ? (
                     <div className="flex">
                         <Image 
                             width={30}

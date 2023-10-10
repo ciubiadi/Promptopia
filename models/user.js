@@ -12,7 +12,7 @@ const userSchema = new Schema(
             unique: [true, 'Username already exists!'],
             required: true,
         },
-        picture: {
+        image: {
             type: String,
         }
     },
@@ -31,8 +31,9 @@ export default User;
 // the route is only going to be createdand running for the time when it gs getting called
 
 
-// The "models" object is provided by the Mongoose library and stores all the registered models.
-
+/* The "models" object is provided by the Mongoose library and stores 
+    all the registered models.
+*/
 /* 
     If a model name "User" already exists in the "models" object, it assigns that existing model 
 to the "User" variable.
