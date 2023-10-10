@@ -7,13 +7,43 @@ import { useRouter } from 'next/navigation';
 import Form from '../components/Form'
 
 const CreatePrompt = () => {
+    const router = useRouter();
+    const { data: session } = useSession();
+
     const [submitting, setSubmitting] = useState(false);
     const [post, setPost] = useState({
         prompt: '',
         tag: '',
     });
 
-    const createPrompt = async (event) => {}
+    const createPrompt = async (event) => {
+        event.preventDefault();
+
+        // for loader
+        setSubmitting(true);
+
+        try {
+            const res = await fetch('/api/prompt/new', 
+            {
+                method: 'POST',
+                // pass this data to the api endpoit in the post request
+                body: JSON.stringify({
+                    prompt: post.prompt,
+                    userId: session?.user.id,
+                    tag: post.tag
+                })
+            })
+
+            if(res.ok) {
+                console.log(res);
+                router.push('/')
+            }
+        } catch(error) {
+            console.log(error);
+        } finally {
+            setSubmitting(false);
+        }
+    }
 
     return (
         <Form 
