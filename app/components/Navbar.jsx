@@ -49,7 +49,7 @@ export default function Navbar() {
                             Sign Out
                         </button>
 
-                        <Link href="/proifle">
+                        <Link href="/profile">
                             <Image 
                                 width={40}
                                 height={40}
