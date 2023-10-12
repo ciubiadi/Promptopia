@@ -25,27 +25,14 @@ const Feed = () => {
     const [searchTimeout, setSearchTimeout] = useState(null);
     const [searchedResults, setSearchedResults] = useState([]);
 
-    const handleSearchChange = (e) => {
-        clearTimeout(searchTimeout);
-        setSearchText(e.target.value);
-
-        // debounce method
-        setSearchTimeout(
-            setTimeout(() => {
-            const searchResult = filterPrompts(e.target.value);
-            setSearchedResults(searchResult);
-            }, 500)
-        );
-    };
-
-    useEffect(() => {
-        const fetchPosts = async () => {
-            const response = await fetch('/api/prompt');
-            const data = await response.json();
-
-            setPosts(data);
-        }
-
+    const fetchPosts = async () => {
+        const response = await fetch("/api/prompt");
+        const data = await response.json();
+    
+        setPosts(data);
+      };
+    
+      useEffect(() => {
         fetchPosts();
     }, []);
 
@@ -57,13 +44,24 @@ const Feed = () => {
             regex.test(item.tag) ||
             regex.test(item.prompt)
         );
-        };
+    };
 
-
-
-        const handleTagClick = (tagName) => {
+    const handleSearchChange = (e) => {
+        clearTimeout(searchTimeout);
+        setSearchText(e.target.value);
+    
+        // debounce method
+        setSearchTimeout(
+            setTimeout(() => {
+            const searchResult = filterPrompts(e.target.value);
+            setSearchedResults(searchResult);
+            }, 500)
+        );
+    };
+    
+    const handleTagClick = (tagName) => {
         setSearchText(tagName);
-
+    
         const searchResult = filterPrompts(tagName);
         setSearchedResults(searchResult);
     };

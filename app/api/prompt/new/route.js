@@ -2,11 +2,6 @@ import { connectMongoDB } from "@lib/mongodb"
 import Prompt from '@models/prompt';
 
 export const POST = async (req, res) => {
-    console.log('req prompt-new')
-    console.log(req)
-    // console.log('res prompt-new')
-    // console.log(res)
-
     const { userId, prompt, tag } = await req.json();
 
     try {

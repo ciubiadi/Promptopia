@@ -11,12 +11,21 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
   const pathName = usePathname();
   const router = useRouter();
 
+  const handleProfileClick = () => {
+    console.log(post);
+
+    if (post.creator._id === session?.user.id) {
+        return router.push("/profile");
+    }
+
+    router.push(`/profile/${post.creator._id}?name=${post.creator.username}`);
+  };
+
   const handleCopy = () => {
     setCopied(post.prompt);
     navigator.clipboard.writeText(post.prompt);
-    // reset the setCopied in 3 seconds
-    setTimeout(() => setCopied(''), 3000);
-  }
+    setTimeout(() => setCopied(false), 3000);
+  };
   
   return (
     <div className='prompt_card'>
@@ -24,9 +33,10 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
             {/* CREATOR INFO DETAILS */}
             <div 
                 className='flex-1 flec justify-start items-center gap-3 cursor-pointer'
+                onClick={handleProfileClick}
             >
                 <Image 
-                    src={post.creator.image}
+                    src={post.creator.image ? post.creator.image : '/assets/images/logo.svg'}
                     alt="user_image"
                     width={40}
                     height={40}
@@ -37,9 +47,9 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
                     <h3 className='font-satoshi font-semibold text-gray-900'>
                         {post.creator.username}
                     </h3>
-                    <o className="font-inter text-sm text-gray-500">
+                    <p className="font-inter text-sm text-gray-500">
                         {post.creator.email}
-                    </o>
+                    </p>
                 </div>
             </div>
 
@@ -58,7 +68,9 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
         </div>
 
         <p className='my-4 font-satoshi text-sm text-gray-700'>
-            {post.prompt}</p>
+            {post.prompt}
+        </p>
+
         <p className='font-inter text-sm blue_gradient cursor-pointer'
             onClick={() => handleTagClick && handleTagClick(post.tag)}
         >

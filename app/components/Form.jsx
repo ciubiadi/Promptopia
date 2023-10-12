@@ -30,6 +30,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
                     className='form_textarea'
                 />
             </label>
+            
             <label>
                 <span className='font-satoshi font-semibold text-base text-gray-700'>
                     Tag {` `}

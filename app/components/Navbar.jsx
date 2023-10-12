@@ -6,11 +6,9 @@ import { useEffect, useState } from 'react';
 import { getProviders, signOut, useSession, signIn } from 'next-auth/react';
 
 export default function Navbar() {
-    // ***** FBT *****
     const { data: session } = useSession(); 
-    const [providers, setProviders] = useState(null);
 
-    // const { status } = useSession(); 
+    const [providers, setProviders] = useState(null);
     const [toggleDropdown, setToggleDropdown] = useState(false);
 
     // allow auth using google and next auth
@@ -92,8 +90,7 @@ export default function Navbar() {
                             className='rounded-full'
                             alt="profile"
                             src={session?.user.image}
-                            // src="/assets/images/logo.svg"
-                            onClick={() => setToggleDropdown((prev) => !prev)}
+                            onClick={() => setToggleDropdown(!toggleDropdown)}
                         />
 
                         {toggleDropdown && (

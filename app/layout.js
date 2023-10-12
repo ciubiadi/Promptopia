@@ -1,5 +1,4 @@
 import '@styles/globals.css';
-import './globals.css'
 
 import { NextAuthProvider } from './components/Provider'
 import Navbar from './components/Navbar';
@@ -22,7 +21,7 @@ export default function RootLayout({ children }) {
             <Navbar />
             {children}
           </main>
-          </NextAuthProvider>
+        </NextAuthProvider>
       </body>
     </html>
   )
