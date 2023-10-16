@@ -19,18 +19,12 @@ In this project I've learned and practiced :
 * MongoDB configuration and usage for database management
 * How to use Vercel for application deployment 
 
-State Management
-Re-usable components
-Error handling
+### Home Page
+<img width="50%" alt="Promptopia-HomePage" src="https://github.com/ciubiadi/Promptopia/assets/46215033/502a4ce6-529e-4ba4-a712-6662b4866585"><img width="50%" alt="Promptopia_Homepage-logedin" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f9f1e734-3570-4b93-9ef4-69200e860f0a">
 
-### Menu Items
-![food_app_home](https://github.com/ciubiadi/My-Learning-Journey/assets/46215033/1559a734-0e69-40d9-8c0c-b6a643a21fdb)
-
-### Cart View
-![food_app_cart](https://github.com/ciubiadi/My-Learning-Journey/assets/46215033/83e90cfa-bee6-4601-8046-7bd0af0f3d3d)
+### Profile Page
+<img width="100%" alt="desktop-MyProfile" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f4dc2ba4-2b34-4c93-b680-7b9489ecdd3a">
 
 ### Cart Form
-![food_app_cart_form](https://github.com/ciubiadi/My-Learning-Journey/assets/46215033/d55816dd-7af8-480a-a840-ef322b03be07)
 
 ### Mobile View
-![food_app_mobile](https://github.com/ciubiadi/My-Learning-Journey/assets/46215033/adf516c0-cf2b-4e4b-acdb-7b065997f01c)
