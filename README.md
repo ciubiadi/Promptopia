@@ -32,4 +32,4 @@ In this project I've learned and practiced :
 <img width="45%" alt="Screenshot 2023-10-16 at 17 57 04" src="https://github.com/ciubiadi/Promptopia/assets/46215033/5552fca2-8fc9-4c4c-8654-829e8b115337">   <img width="45%" alt="desktop-CreatePost" src="https://github.com/ciubiadi/Promptopia/assets/46215033/08233f46-0c47-486a-b571-5e3398ab3416">
 
 ### Mobile view
-<img width="45%" alt="Mobile Page" src="https://github.com/ciubiadi/Promptopia/assets/46215033/b0fb4af3-2c3b-471e-ba62-e730b8a465fd">
+<img width="45%" alt="Mobile Page" src="https://github.com/ciubiadi/Promptopia/assets/46215033/b0fb4af3-2c3b-471e-ba62-e730b8a465fd">   <img width="45%" alt="Screenshot 2023-10-16 at 18 00 58" src="https://github.com/ciubiadi/Promptopia/assets/46215033/2befe9bd-d652-440e-9bb7-cf3b7a5dd8f7">
