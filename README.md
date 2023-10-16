@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 13 Project
+## Promptopia - AI Prompting App
+### App description
+This app is an open source AI Prompting tool that helps users to discover, create and share creative prompts. The user can search for tags, usernames and prompted content. Basically this project represents a Full Stack Next.JS13 CRUD App.
 
-## Getting Started
+### What I have learned
+In this project I've learned and practiced :
+* Next.js 13 App Folder Structure
+* Next.js 13 Client Components vs Server Components
+* Next.js 13 File-based Routing (including dynamic and nested routes)
+* Next.js 13 page, layout, loading, and error Special Files
+* Next.js 13 Serverless Route Handlers (Next API, Full Stack Apps)
+* Next.js 13 Metadata and Search Engine Optimization (SEO)
+* Three ways to fetch data in Next.js:
+  - Server Side Rendering (SSR),
+  - Static Site Generation (SSG)
+  - Incremental Static Generation (ISR)
+* How to use and configure Google Console to allow Google authentication
+* MongoDB configuration and usage for database management
+* How to use Vercel for application deployment 
 
-First, run the development server:
+State Management
+Re-usable components
+Error handling
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Menu Items
+![food_app_home](https://github.com/ciubiadi/My-Learning-Journey/assets/46215033/1559a734-0e69-40d9-8c0c-b6a643a21fdb)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Cart View
+![food_app_cart](https://github.com/ciubiadi/My-Learning-Journey/assets/46215033/83e90cfa-bee6-4601-8046-7bd0af0f3d3d)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Cart Form
+![food_app_cart_form](https://github.com/ciubiadi/My-Learning-Journey/assets/46215033/d55816dd-7af8-480a-a840-ef322b03be07)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Mobile View
+![food_app_mobile](https://github.com/ciubiadi/My-Learning-Journey/assets/46215033/adf516c0-cf2b-4e4b-acdb-7b065997f01c)
