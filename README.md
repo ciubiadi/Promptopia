@@ -20,7 +20,7 @@ In this project I've learned and practiced :
 * How to use Vercel for application deployment 
 
 ### Home Page
-<img width="50%" alt="Promptopia-HomePage" src="https://github.com/ciubiadi/Promptopia/assets/46215033/502a4ce6-529e-4ba4-a712-6662b4866585"><img width="50%" alt="Promptopia_Homepage-logedin" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f9f1e734-3570-4b93-9ef4-69200e860f0a">
+<img width="48%" alt="Promptopia-HomePage" src="https://github.com/ciubiadi/Promptopia/assets/46215033/502a4ce6-529e-4ba4-a712-6662b4866585">  <img width="48%" alt="Promptopia_Homepage-logedin" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f9f1e734-3570-4b93-9ef4-69200e860f0a">
 
 ### Profile Page
 <img width="100%" alt="desktop-MyProfile" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f4dc2ba4-2b34-4c93-b680-7b9489ecdd3a">
