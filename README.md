@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js 13 Project
+## Promptopia - AI Prompting App
+### App description
+This app is an open source AI Prompting tool that helps users to discover, create and share creative prompts. The user can search for tags, usernames and prompted content. Basically this project represents a Full Stack Next.JS13 CRUD App.
+The application can be checked and tested at : https://promptopia-ruby-zeta.vercel.app/.
 
-## Getting Started
+### What I have learned
+In this project I've learned and practiced :
+* Next.js 13 App Folder Structure
+* Next.js 13 Client Components vs Server Components
+* Next.js 13 File-based Routing (including dynamic and nested routes)
+* Next.js 13 page, layout, loading, and error Special Files
+* Next.js 13 Serverless Route Handlers (Next API, Full Stack Apps)
+* Next.js 13 Metadata and Search Engine Optimization (SEO)
+* Three ways to fetch data in Next.js:
+  - Server Side Rendering (SSR),
+  - Static Site Generation (SSG)
+  - Incremental Static Generation (ISR)
+* How to use and configure Google Console to allow Google authentication
+* MongoDB configuration and usage for database management
+* How to use Vercel for application deployment 
 
-First, run the development server:
+### Home Page
+<img width="45%" alt="Promptopia-HomePage" src="https://github.com/ciubiadi/Promptopia/assets/46215033/502a4ce6-529e-4ba4-a712-6662b4866585">   <img width="45%" alt="Promptopia_Homepage-logedin" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f9f1e734-3570-4b93-9ef4-69200e860f0a">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Profile Page
+<img width="45%" alt="desktop-MyProfile" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f4dc2ba4-2b34-4c93-b680-7b9489ecdd3a">   <img width="45%" alt="Screenshot 2023-10-16 at 17 55 05" src="https://github.com/ciubiadi/Promptopia/assets/46215033/5dd515a9-9920-4a4a-9c11-c3a2aec26068">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Confirm Deletion and Edit Page
+<img width="45%" alt="desktop-ConfirmDeletion" src="https://github.com/ciubiadi/Promptopia/assets/46215033/e4ee496f-5c50-4143-a656-762384acc0ff">   <img width="45%" alt="Desktop-EditPost" src="https://github.com/ciubiadi/Promptopia/assets/46215033/89a0caf7-5f23-4eba-856b-6ab420ddac0d">
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Create Post and Live Search of prompts
+<img width="45%" alt="Screenshot 2023-10-16 at 17 57 04" src="https://github.com/ciubiadi/Promptopia/assets/46215033/5552fca2-8fc9-4c4c-8654-829e8b115337">   <img width="45%" alt="desktop-CreatePost" src="https://github.com/ciubiadi/Promptopia/assets/46215033/08233f46-0c47-486a-b571-5e3398ab3416">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Mobile view
+<img width="45%" alt="Mobile Page" src="https://github.com/ciubiadi/Promptopia/assets/46215033/b0fb4af3-2c3b-471e-ba62-e730b8a465fd">   <img width="45%" alt="Screenshot 2023-10-16 at 18 00 58" src="https://github.com/ciubiadi/Promptopia/assets/46215033/2befe9bd-d652-440e-9bb7-cf3b7a5dd8f7">
