@@ -23,7 +23,7 @@ const authOptions = {
     
             return session;
         },
-        async signIn({ profile, user, account, }) {
+        async signIn({ profile, user, account, credentials }) {
             // if(account.provider === 'google'){
                 // const {name, email} = user;
 
@@ -60,9 +60,10 @@ const authOptions = {
                         }),
                         });
 
-                    // if(res.ok){
-                    //     return user;
-                    // }
+                    if(res.ok){
+                        // return user;
+                        console.log(user);
+                    }
                 }
 
                 return true;

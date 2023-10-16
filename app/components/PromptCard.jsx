@@ -12,8 +12,6 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
   const router = useRouter();
 
   const handleProfileClick = () => {
-    console.log(post);
-
     if (post.creator._id === session?.user.id) {
         return router.push("/profile");
     }
@@ -32,7 +30,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
         <div className="flex justify-between items-start gap-5">
             {/* CREATOR INFO DETAILS */}
             <div 
-                className='flex-1 flec justify-start items-center gap-3 cursor-pointer'
+                className='flex-1 flex justify-start items-center gap-3 cursor-pointer'
                 onClick={handleProfileClick}
             >
                 <Image 

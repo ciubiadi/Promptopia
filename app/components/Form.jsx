@@ -5,7 +5,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
   return (
     <section className='w-full max-w-full flex-start flex-col'>
         <h1 className='head_text text-left'>
-            <span className='blue_gradient'>{type}</span> Post
+            <span className='blue_gradient'>{type} Post</span>
         </h1>
         <p className="desc text-left max-w-md">
             {type} amd share amazing prompts with the world, and let your imagination
@@ -27,23 +27,22 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
                     prompt: event.target.value })}
                     placeholder='Write your prompt here...'
                     required
-                    className='form_textarea'
+                    className='form_textarea '
                 />
             </label>
-            
+
             <label>
                 <span className='font-satoshi font-semibold text-base text-gray-700'>
-                    Tag {` `}
+                    Field of Prompt {' '}
                     <span className='font-normal'>
                         (#product, #webdevelopment, #idea)
                     </span>
                 </span>
-
                 <input 
                     value={post.tag}
-                    onChange={(event) => setPost({ ...post,
-                    tag: event.target.value })}
-                    placeholder='#tag'
+                    onChange={(event) => setPost({ ...post, tag: event.target.value })}
+                    placeholder='#Tag'
+                    type="text"
                     required
                     className='form_input'
                 />
@@ -60,7 +59,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
                     disabled={submitting}
                     className='px-5 py-1.5 text-sm bg-primary-orange rounded-full text-white'
                 >
-                    {submitting ? `${type}...` : type}
+                    {submitting ? `${type}ing...` : type}
                 </button>
             </div>
         </form>

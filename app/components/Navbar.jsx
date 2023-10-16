@@ -13,12 +13,11 @@ export default function Navbar() {
 
     // allow auth using google and next auth
     useEffect(() => {
-        const setTheProviders = async () => {
-            const response = await getProviders();
-            setProviders(response);
-        }
-        setTheProviders();
-    },[]);
+        (async () => {
+          const res = await getProviders();
+          setProviders(res);
+        })();
+    }, []);    
 
     return (
         <nav className='flex-between w-full mb-16 pt-3'>

@@ -9,3 +9,7 @@
 
  // All the providers ( redux toolkit query, usually used files and functionalities go within
   the layout component because in this way they will be used everywhere across the app.
+
+
+  // App deployeed to https://vercel.com/adrian-ciubuccius-projects/promptopia/5sri4zLdpoVXsybFGKeP3kA3T7h1
+  app url : https://promptopia-2m9im53fo-adrian-ciubuccius-projects.vercel.app/
