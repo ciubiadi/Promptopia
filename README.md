@@ -6,6 +6,7 @@ The application can be checked and tested at : https://promptopia-ruby-zeta.verc
 
 ### What I have learned
 In this project I've learned and practiced :
+* Tailwind CSS
 * Next.js 13 App Folder Structure
 * Next.js 13 Client Components vs Server Components
 * Next.js 13 File-based Routing (including dynamic and nested routes)
