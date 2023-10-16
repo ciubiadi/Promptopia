@@ -1,4 +1,4 @@
-<img width="1723" alt="Desktop-EditPost" src="https://github.com/ciubiadi/Promptopia/assets/46215033/53184477-c3f0-4e04-b403-08b6d6f05298"># Next.js 13 Project
+# Next.js 13 Project
 ## Promptopia - AI Prompting App
 ### App description
 This app is an open source AI Prompting tool that helps users to discover, create and share creative prompts. The user can search for tags, usernames and prompted content. Basically this project represents a Full Stack Next.JS13 CRUD App.
@@ -31,7 +31,6 @@ My Profile page + profile page of other users
 
 ### Create Post and Live Search of prompts
 <img width="48%" alt="Screenshot 2023-10-16 at 17 57 04" src="https://github.com/ciubiadi/Promptopia/assets/46215033/5552fca2-8fc9-4c4c-8654-829e8b115337">   <img width="48%" alt="desktop-CreatePost" src="https://github.com/ciubiadi/Promptopia/assets/46215033/08233f46-0c47-486a-b571-5e3398ab3416">
-
 
 ### Mobile view
 <img width="100%" alt="Mobile Page" src="https://github.com/ciubiadi/Promptopia/assets/46215033/b0fb4af3-2c3b-471e-ba62-e730b8a465fd">
