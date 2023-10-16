@@ -20,17 +20,16 @@ In this project I've learned and practiced :
 * How to use Vercel for application deployment 
 
 ### Home Page
-<img width="48%" alt="Promptopia-HomePage" src="https://github.com/ciubiadi/Promptopia/assets/46215033/502a4ce6-529e-4ba4-a712-6662b4866585">   <img width="48%" alt="Promptopia_Homepage-logedin" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f9f1e734-3570-4b93-9ef4-69200e860f0a">
+<img width="45%" alt="Promptopia-HomePage" src="https://github.com/ciubiadi/Promptopia/assets/46215033/502a4ce6-529e-4ba4-a712-6662b4866585">   <img width="45%" alt="Promptopia_Homepage-logedin" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f9f1e734-3570-4b93-9ef4-69200e860f0a">
 
 ### Profile Page
-My Profile page + profile page of other users
-<img width="48%" alt="desktop-MyProfile" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f4dc2ba4-2b34-4c93-b680-7b9489ecdd3a">   <img width="48%" alt="Screenshot 2023-10-16 at 17 55 05" src="https://github.com/ciubiadi/Promptopia/assets/46215033/5dd515a9-9920-4a4a-9c11-c3a2aec26068">
+<img width="45%" alt="desktop-MyProfile" src="https://github.com/ciubiadi/Promptopia/assets/46215033/f4dc2ba4-2b34-4c93-b680-7b9489ecdd3a">   <img width="45%" alt="Screenshot 2023-10-16 at 17 55 05" src="https://github.com/ciubiadi/Promptopia/assets/46215033/5dd515a9-9920-4a4a-9c11-c3a2aec26068">
 
 ### Confirm Deletion and Edit Page
-<img width="48%" alt="desktop-ConfirmDeletion" src="https://github.com/ciubiadi/Promptopia/assets/46215033/e4ee496f-5c50-4143-a656-762384acc0ff">   <img width="48%" alt="Desktop-EditPost" src="https://github.com/ciubiadi/Promptopia/assets/46215033/89a0caf7-5f23-4eba-856b-6ab420ddac0d">
+<img width="45%" alt="desktop-ConfirmDeletion" src="https://github.com/ciubiadi/Promptopia/assets/46215033/e4ee496f-5c50-4143-a656-762384acc0ff">   <img width="45%" alt="Desktop-EditPost" src="https://github.com/ciubiadi/Promptopia/assets/46215033/89a0caf7-5f23-4eba-856b-6ab420ddac0d">
 
 ### Create Post and Live Search of prompts
-<img width="48%" alt="Screenshot 2023-10-16 at 17 57 04" src="https://github.com/ciubiadi/Promptopia/assets/46215033/5552fca2-8fc9-4c4c-8654-829e8b115337">   <img width="48%" alt="desktop-CreatePost" src="https://github.com/ciubiadi/Promptopia/assets/46215033/08233f46-0c47-486a-b571-5e3398ab3416">
+<img width="45%" alt="Screenshot 2023-10-16 at 17 57 04" src="https://github.com/ciubiadi/Promptopia/assets/46215033/5552fca2-8fc9-4c4c-8654-829e8b115337">   <img width="45%" alt="desktop-CreatePost" src="https://github.com/ciubiadi/Promptopia/assets/46215033/08233f46-0c47-486a-b571-5e3398ab3416">
 
 ### Mobile view
-<img width="100%" alt="Mobile Page" src="https://github.com/ciubiadi/Promptopia/assets/46215033/b0fb4af3-2c3b-471e-ba62-e730b8a465fd">
+<img width="45%" alt="Mobile Page" src="https://github.com/ciubiadi/Promptopia/assets/46215033/b0fb4af3-2c3b-471e-ba62-e730b8a465fd">
