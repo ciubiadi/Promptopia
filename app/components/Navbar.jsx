@@ -68,8 +68,8 @@ export default function Navbar() {
                                 onClick={() => {
                                     // sign in
                                     // signIn();
-                                    // signIn(provider.id);
-                                    signIn('google');
+                                    signIn(provider.id);
+                                    // signIn('google');
                                 }}
                             >
                                 Sign In
