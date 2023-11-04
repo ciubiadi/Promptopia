@@ -46,11 +46,11 @@ const authOptions = {
                 // const userExists = await User.findOne({ 
                 //     email: profile.email
                 // });
-                console.log('profile.email_verified', profile.email_verified);
-                console.log('account', account);
-                if (account.provider === "google") {
-                    return profile.email_verified
-                }
+                // console.log('profile.email_verified', profile.email_verified);
+                // console.log('account', account);
+                // if (account.provider === "google") {
+                //     return profile.email_verified
+                // }
 
                 // if not, create a new user
                 // if(!userExists){
