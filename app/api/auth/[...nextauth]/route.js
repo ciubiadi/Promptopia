@@ -43,35 +43,40 @@ const authOptions = {
                 await connectMongoDB();
 
                 // check if a user already exists
-                const userExists = await User.findOne({ 
-                    email: profile.email
-                });
+                // const userExists = await User.findOne({ 
+                //     email: profile.email
+                // });
+                console.log('profile.email_verified', profile.email_verified);
+                console.log('account', account);
+                if (account.provider === "google") {
+                    return profile.email_verified
+                }
 
                 // if not, create a new user
-                if(!userExists){
-                    await User.create({
-                        email: profile.email,
-                        name: profile.name.replace(' ', '').toLowerCase(),
-                        image: profile.picture
-                    })
+                // if(!userExists){
+                //     await User.create({
+                //         email: profile.email,
+                //         name: profile.name.replace(' ', '').toLowerCase(),
+                //         image: profile.picture
+                //     })
 
-                    const res = await fetch("http://localhost:3000/api/user", {
-                        method: "POST",
-                        headers: {
-                            "Content-Type": "application/json",
-                        },
-                        body: JSON.stringify({
-                            name: profile.name,
-                            email: profile.email,
-                            image: profile.picture
-                        }),
-                        });
+                //     const res = await fetch("http://localhost:3000/api/user", {
+                //         method: "POST",
+                //         headers: {
+                //             "Content-Type": "application/json",
+                //         },
+                //         body: JSON.stringify({
+                //             name: profile.name,
+                //             email: profile.email,
+                //             image: profile.picture
+                //         }),
+                //         });
 
-                    if(res.ok){
-                        // return user;
-                        console.log(user);
-                    }
-                }
+                //     if(res.ok){
+                //         // return user;
+                //         console.log(user);
+                //     }
+                // }
 
                 return true;
             } catch (error) {

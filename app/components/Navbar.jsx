@@ -67,8 +67,9 @@ export default function Navbar() {
                                 className="black_btn"
                                 onClick={() => {
                                     // sign in
-                                    signIn(provider.id);
-                                    // signIn('google');
+                                    // signIn();
+                                    // signIn(provider.id);
+                                    signIn('google');
                                 }}
                             >
                                 Sign In
