@@ -4,7 +4,7 @@
 This app is an open source AI Prompting tool that helps users to discover, create and share creative prompts. The user can search for tags, usernames and prompted content. Basically this project represents a Full Stack Next.JS13 CRUD App.
 The application can be checked and tested at : https://promptopia-ruby-zeta.vercel.app/.
 
-### What I have learned
+### What I learned
 In this project I've learned and practiced :
 * Tailwind CSS
 * Next.js 13 App Folder Structure
